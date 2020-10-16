@@ -1,0 +1,96 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    min-height:100vh;
+    height:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+
+.about{
+    background-color: orange;
+    padding:100px;
+    border:solid black 2px;
+    border-radius: 250px;
+}
+.inner-container{
+    width:55%;
+    float:right;
+    background-color: white;
+    padding:150px;
+border:solid black 2px;
+border-radius: 200px;
+
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size:30px;
+    font-weight: 900;
+
+}
+
+
+
+
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    
+}
+
+
+ .inner-container p{
+    font-family: 'GrundschriftRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 10px;
+}
+
+    
+
+  
+
+  span{
+      color:green;
+
+  }
+  a{
+      text-decoration: none;
+  }
+ 
+   a span:hover{
+       color:white;
+       border:solid white 2px;
+       background-color:orange;
+       border-radius: 5px;
+   }  
+   @media screen and (min-width:876px){
+    .about{
+        background-color:blue;
+        padding:50px;
+        border:solid black 2px;
+        border-radius: 3500px;
+    
+    }
+}
+@media screen and (min-width:176px){
+    .inner-container p{
+        font-family: 'GrundschriftRegular';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
+
+   
